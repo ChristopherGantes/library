@@ -45,6 +45,25 @@ h6 {
 }
 
 /* PROJECT CSS */
+
+div.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  padding: 20px;
+  margin: 20px;
+}
+
+#show-dialog {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+
 #library-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -93,6 +112,7 @@ h6 {
   border: none;
   background: none;
 }
+
 .book>#remove-book {
   position: absolute;
   top: 5px;
@@ -100,8 +120,9 @@ h6 {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 1px solid gray;
-  
+  border: none;
+  background-color: darkred;
+
   display: flex;
   justify-content: center;
   align-items: center;

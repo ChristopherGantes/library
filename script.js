@@ -63,7 +63,7 @@ function createBookNode(book) {
 
   const removeButton = document.createElement("button");
   removeButton.setAttribute("id", "remove-book");
-  removeButton.textContent = "X";
+  // removeButton.textContent = "X";
   removeButton.addEventListener("click", (event) => {
     event.preventDefault();
     const indexOfBook = myLibrary.indexOf(book);
